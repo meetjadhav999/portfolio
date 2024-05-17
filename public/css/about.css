@@ -1,0 +1,44 @@
+.about{
+    font-family:quicksand;
+}
+.about div{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.about p{
+    color: var(--text);
+    font-size:20px;
+    font-weight: normal;
+}
+
+.download{
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 15px;
+    margin: 20px 0;
+    background-color: #378ce700;
+    border: 3px solid #378CE7;
+    color: #378CE7;
+    text-decoration: none;
+    font-family: quicksand;
+    font-size: 18px;
+    transition: 0.2s;
+}
+.download:hover{
+    background-color: #378ce74f;
+    color: white;
+    border-radius: 30px;
+
+}
+@media screen and (max-width:380px) {
+    .about div{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .about p{
+        font-size: 14px;
+    }
+}

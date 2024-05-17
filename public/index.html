@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet Jadhav</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/sidemenu.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="logo">
+                <h3>
+                    Meet Jadhav
+                </h3>
+            </div>
+            <div class="burger" onclick="toggleSideMenu()">
+                <div class="bar" id="bar1"></div>
+                <div class="bar" id="bar2"></div>
+                <div class="bar" id="bar3"></div>
+            </div>
+        </nav>
+
+        <div class="main-wrapper">
+            <div class="side-menu" id="sidemenu">
+                <div class="quick-links" id="links">
+                    <details open="true">
+                        <summary>Quick Links</summary>
+                        <div class="link-div">
+                            <img class="icon" src="image/home.png" alt="">
+                            <a class="links" href="">Home</a>
+                        </div>
+                        <div class="link-div">
+                            <img class="icon" src="image/projects.png" alt="">
+                            <a class="links" href="#projects">Projects</a>
+                        </div>
+                        <div class="link-div">
+                            <img class="icon" src="image/skills.png" alt="">
+                            <a class="links" href="#skills">Skills</a>
+                        </div>
+                        <div class="link-div">
+                            <img class="icon" src="image/contacts.png" alt="">
+                            <a class="links" href="#contact">Contact</a>
+                        </div>
+    
+    
+    
+                    </details>
+                </div>
+                <div class="socials" id="socials">
+                    <details open="true">
+                        <summary>My Socials</summary>
+    
+                        <div class="link-div">
+                            <img class="icon" src="image/linkedin.png" alt="">
+                            <a class="links" href="https://www.linkedin.com/in/meet-jadhav-865249270/" target="_blank">LinkedIn</a>
+                        </div>
+                        <div class="link-div">
+                            <img class="icon" src="image/github.png" alt="">
+                            <a class="links" href="https://github.com/meetjadhav999" target="_blank">Github</a>
+                        </div>
+                        <div class="link-div">
+                            <img class="icon" src="image/xlogo.png" alt="">
+                            <a class="links" href="https://twitter.com/MeetJadhav003" target="_blank">Twitter</a>
+                        </div>
+    
+                    </details>
+                </div>
+            </div>
+    
+            <div class="main-content">
+                <div class="division profile">
+                    <div class="profile-container">
+                        <img src="image/profile1.png" alt="" class="profile-pic">
+                        <div>
+                            <h1>Meet Jadhav</h1>
+                            <p>Full stack web developer</p>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <!-- About -->
+                <div class="division about">
+                    <div>
+                        <h1 class="section-heading">About me</h1>
+                        <p>Hi, I am Meet. I am full stack web developer currently studying Computer engineering. I have been learning web development for more than 3 years. </p>
+                        <a href="assests/Meetjadhav.pdf" class="download" download="Meetjadhav.pdf">Download Resume</a>
+                    </div>
+                   
+                </div>
+
+
+                <!-- Projects -->
+                <div class="division" >
+                    <div class="empty" id="projects"></div>
+                    <div class="projects-container">
+                        <h1 class="section-heading">
+                            Projects
+                        </h1>
+                        <div class="allprojects">
+                            <div class="project">
+                                <a href="https://github.com/meetjadhav999/react-notesApp" target="_blank">
+                                    <img src="image/notes.png" alt="">
+                                    <div>
+                                        <h6>NoteApp</h6>
+                                        <p>Nodejs, Reactjs, HTML, CSS, React hooks, JavaScript, MongoDB</p>
+                                    </div>
+                                </a>
+                                
+                            </div>
+                            <div class="project">
+                                <a href="https://github.com/meetjadhav999/PhotoGallery" target="_blank">
+                                    <img src="image/photogallery.jpg" alt="">
+                                    <div>
+                                        <h6>Photo Gallery API</h6>
+                                        <p>Nodejs, JavaScript, REST Api, JsonWebTokens, MongoDB</p>
+                                    </div>
+                                </a>
+                                
+                            </div>
+                            <div class="project">
+                                <a href="https://github.com/meetjadhav999/task-manager-api" target="_blank">
+                                    <img src="image/taskmanager.jpg" alt="">
+                                    <div>
+                                        <h6>Task Manager AP</h6>
+                                        <p>Nodejs, JavaScript, REST Api, JsonWebTokens, MongoDB</p>
+                                    </div>
+                                </a>
+                                
+                            </div>
+                            <div class="project">
+                                <a href="https://github.com/meetjadhav999/weatherApp" target="_blank">
+                                    <img src="image/weather1.jpg" alt="">
+                                    <div>
+                                        <h6>Weather forecast</h6>
+                                        <p>Nodejs, Handlebars, Third Party API, JavaScript</p>
+                                    </div>
+                                </a>
+                                
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="division">
+                    <div class="empty" id="skills"></div>
+
+                    <div class="skills">
+                        <h1 class="section-heading">Skills</h1>
+                        <div class="skills-container">
+                            <div class="skill-div">
+                                <h2>Languages</h2>
+                                <p>Python</p>
+                                <p>JavaScript</p>
+                                <p>C</p>
+                                <p>C++</p>
+                            </div>
+                            <div class="skill-div">
+                                <h2>Frontend</h2>
+                                <p>HTML</p>
+                                <p>CSS</p>
+                                <p>React JS</p>
+                                <p>BootStrap</p>
+                            </div>
+                            <div class="skill-div">
+                                <h2>Backend</h2>
+                                <p>Node JS</p>
+                                <p>Django</p>
+                                <p>Express.js</p>
+                                
+                            </div>
+                            <div class="skill-div">
+                                <h2>Databases</h2>
+                                <p>MySQL</p>
+                                <p>MongoDB</p>
+                            </div>
+                            <div class="skill-div">
+                                <h2>Tools</h2>
+                                <p>Git</p>
+                                <p>Github</p>
+                                <p>Postman</p>
+                                <p>Figma</p>
+                            </div>
+                       
+                        </div>
+                    </div>
+
+                </div>
+                <div class="division">
+                    <div class="empty" id="contact"></div>
+
+                    <h1 class="section-heading contact-heading">Contact Me</h1>
+                    <a href="mailto:meet.jadhav999@gmail.com" class="contact-button">Email me</a>
+                
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+    <script src="js/index.js"></script>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyBEl1e7FZCM1ymmRFM6AydMPgQbn7O3spY",
+          authDomain: "meetjadhav-35874.firebaseapp.com",
+          projectId: "meetjadhav-35874",
+          storageBucket: "meetjadhav-35874.appspot.com",
+          messagingSenderId: "129685892595",
+          appId: "1:129685892595:web:d5a580f8450c2908be3686",
+          measurementId: "G-1NCZBH95P0"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+</body>
+</html>

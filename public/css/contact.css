@@ -1,0 +1,36 @@
+.contact-heading{
+    margin-left: 30px;
+}
+.contact-button{
+    margin-left:30px;
+    display: block;
+    height:24px;
+    width:150px;
+    background-color:rgb(0, 110, 255);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-family: arial;
+    padding: 12px;
+    margin-bottom: 30px;
+    transition: 0.4s;
+    border: 3px solid transparent;
+}
+.contact-button:hover{
+    border-radius: 50px;
+    border: 3px solid rgb(0, 110, 255);
+    background-color:transparent;
+}
+@media screen and (max-width:600px) {
+    .contact-heading{
+        margin-left: 10px;
+    }
+    .contact-button{
+        margin-left: 10px;
+        width: 100px;
+        font-size: 16px;
+        height: 20px;
+        padding: 6px;
+    }
+}

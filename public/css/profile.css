@@ -1,0 +1,72 @@
+.profile{
+    background-image: url('/image/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 85px;
+    border:none !important;
+}
+.profile-container{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    margin-left: 30px;
+    font-family: arial; 
+    color: white;
+}
+.profile-pic{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.profile-container div{
+    margin-left: 30px;
+}
+.profile-container h1{
+    font-size: 45px;
+    font-weight: bold;
+    margin: 0;
+    
+}
+.profile-container p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: 5px;
+    
+}
+@media screen and (max-width: 950px) {
+    .profile-pic{
+        width: 100px;
+        height: 100px;
+    }
+    .profile-container h1{
+        font-size: 35px;
+    }
+    .profile-container p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .profile{
+        margin-top: 50px !important;
+    }
+    .profile-pic{
+        width: 85px;
+        height: 85px;
+    }
+    .profile-container{
+        flex-direction: column;
+        margin-left: 0;
+
+    }
+    .profile-container div{
+        margin-left: 0;
+        text-align: center;
+    }
+    .profile-container h1{
+        font-size:30px;
+    }
+    .profile-container p{
+        font-size: 14px;
+    }
+}
